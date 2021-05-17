@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71056440-02ED-4DBE-B122-E8E142B5FECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5C3D98C1-A611-48B0-BA94-E29AAFDF74EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{29C17A76-2AD1-44B9-990D-20C70C906993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{1C7ED9A8-93EC-4D55-885F-38472D98F477}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6D3EA26A-A4AE-413A-B4E1-6F54D9CF572D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7ED9A8-93EC-4D55-885F-38472D98F477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7ED9A8-93EC-4D55-885F-38472D98F477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7ED9A8-93EC-4D55-885F-38472D98F477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7ED9A8-93EC-4D55-885F-38472D98F477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3EA26A-A4AE-413A-B4E1-6F54D9CF572D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3EA26A-A4AE-413A-B4E1-6F54D9CF572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3EA26A-A4AE-413A-B4E1-6F54D9CF572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3EA26A-A4AE-413A-B4E1-6F54D9CF572D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65DF6ED4-187A-4B3A-85CE-783D8CF51AC1}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C3D98C1-A611-48B0-BA94-E29AAFDF74EF} = {71056440-02ED-4DBE-B122-E8E142B5FECF}
+		{29C17A76-2AD1-44B9-990D-20C70C906993} = {5C3D98C1-A611-48B0-BA94-E29AAFDF74EF}
+		{1C7ED9A8-93EC-4D55-885F-38472D98F477} = {29C17A76-2AD1-44B9-990D-20C70C906993}
+	EndGlobalSection
+EndGlobal
