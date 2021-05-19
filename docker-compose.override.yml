@@ -23,7 +23,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     environment:
-      - POSTRES_USER=admin
+      - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin@1234
       - POSTGRES_DB=DiscountDB
 
